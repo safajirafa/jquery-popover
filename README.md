@@ -1,0 +1,1 @@
+jQuery plugin that uses object <-> DOM bridge pattern
