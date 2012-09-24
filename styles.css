@@ -1,0 +1,61 @@
+#categoriesPopOver .pop-over-arrow
+{
+    position: absolute;
+    border-color: transparent transparent #37464F transparent;
+    border-style: solid;
+    border-width: 15px;
+    content:"";
+}
+
+#categoriesPopOver
+{
+    z-index: 1;
+    position: absolute;
+    background: -webkit-gradient(linear, left top, left bottom, from(#37464F), to(#37464F), color-stop(8%, #0d1113));
+    border-radius: 4px;
+    font-family: Verdana;
+    display: none;
+    border: 1px solid #29343b;
+    -webkit-box-shadow: 2px 2px 10px hsl(0,0%,40%);
+}
+
+#categoriesPopOver .pop-over-header
+{
+    display: block;
+    color: #FFF;
+}
+
+#categoriesPopOver .pop-over-title
+{
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#categoriesPopOver #btnClosePopOver
+{
+    float: right;
+    display: inline-block;
+    font-size: 9pt;
+    padding: 7px 14px;
+    margin: 4px;
+    -webkit-appearance: none;
+    color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0% , 0%, .3)), to(hsla(0, 0% , 0%, .7)));
+    text-shadow: 1px 1px 0 #000;
+    border-bottom: 1px solid hsla(0, 0% , 100%, .3);
+    border-left: 1px solid hsla(0, 0% , 100%, .2);
+    border-right: 1px solid hsla(0, 0% , 100%, .2);
+}
+
+#categoriesPopOver .pop-over-content
+{
+    -webkit-border-radius: 3px;
+    position: absolute;
+    top: 42px; right: 5px; bottom: 5px; left: 5px;
+    background-color: hsl(0, 0%, 81%);
+    -webkit-box-shadow: inset 0px 0px 4px #000;
+}
